@@ -42,6 +42,14 @@ body {
 .navbar, #features, #contribute {
     background-color: #eee8d5;
 }
+#intro, .dark>h1 {
+    color: #eee8d5;
+    background-color: #009688;
+}
+.light h1,
+.light h2 {
+    color: #009688;
+}
 h1 {
     font-size: 800%;
 }
