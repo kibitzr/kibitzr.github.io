@@ -27,20 +27,32 @@ html {
     }
 }
 
+/*
 section {
     min-height: 70%;
     padding-top: 150px;
 }
+*/
 
 body {
-    background-color: #fdf6e3;
+    /* background-color: #fdf6e3; */
+    background-image: url("../images/sky.jpg");
+    background-attachment: fixed; 
 }
-.navbar, #features, #contribute {
+.navbar {
     background-color: #eee8d5;
 }
+#intro {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.hlcode .syntax pre{
+}
+
 #intro, .dark>h1 {
     color: #eee8d5;
-    background-color: #009688;
+    /* background-color: #009688; */
 }
 .light h1,
 .light h2 {
