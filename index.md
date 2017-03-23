@@ -1,5 +1,3 @@
-![](kibitzr.png)
-
 > Kibitzr is like a secret twin brother who does routine tasks and asks for nothing in return.
 
 ## Easy to start
