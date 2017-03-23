@@ -22,10 +22,9 @@ Kibitzr is like a secret twin brother who does routine tasks and asks for nothin
 * Free Open Source Software
 * MIT license
 
-Read the [documentation](https://kibitzr.readthedocs.org)
+## Enjoy!
 
-Ask in [chat](https://gitter.im/kibitzr/Lobby)
-
-Open [issue](https://github.com/kibitzr/kibitzr/issues/)
-
-Fork on [GitHub](https://github.com/kibitzr/kibitzr)
+* Read the [documentation](https://kibitzr.readthedocs.org)
+* Ask in [chat](https://gitter.im/kibitzr/Lobby)
+* Open [issue](https://github.com/kibitzr/kibitzr/issues/)
+* Fork on [GitHub](https://github.com/kibitzr/kibitzr)
