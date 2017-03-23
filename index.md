@@ -1,7 +1,6 @@
-# Kibitzr
-## Self-hosted open source web monitoring tool
+![](kibitzr.png)
 
-Kibitzr is like a secret twin brother who does routine tasks and asks for nothing in return.
+> Kibitzr is like a secret twin brother who does routine tasks and asks for nothing in return.
 
 ## Easy to start
 * install - `pip install kibitzr` (Python 2 and 3 compatible)
@@ -23,7 +22,6 @@ Kibitzr is like a secret twin brother who does routine tasks and asks for nothin
 * MIT license
 
 ## Enjoy!
-
 * Read the [documentation](https://kibitzr.readthedocs.org)
 * Ask in [chat](https://gitter.im/kibitzr/Lobby)
 * Open [issue](https://github.com/kibitzr/kibitzr/issues/)
