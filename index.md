@@ -18,4 +18,5 @@
 * Vibrant friendly community (on gitter)
 
 Read the [documentation](kibitzr.readthedocs.org)
+
 Fork on [GitHub](https://github.com/kibitzr/kibitzr)
