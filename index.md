@@ -1,5 +1,8 @@
 > Kibitzr is like a secret twin brother who does routine tasks and asks for nothing in return.
 
+> The best tool for scrapping deep web
+
+
 ## Easy to start
 * install - `pip install kibitzr` (Python 2 and 3 compatible)
 * configure - whole configuration in one YAML file
