@@ -1,6 +1,6 @@
 # Why Python is a perfect language for Kibitzr
 
-Kibitzr is a command line utility, that (depending on configuration)
+[Kibitzr](/) is a command line utility, that (depending on configuration)
 polls web pages and notify on changes through different channels.
 Kibitzr is written in Python and the first version was built within an hour.
 This speed of development is achieved by Python nature itself and it's ecosystem.
@@ -15,7 +15,7 @@ achieving both runtime speed and development agility.
 
 ## Configuration
 
-Kibitzr' configuration file has to be expressive and human-editable.
+Kibitzr's configuration file has to be expressive and human-editable.
 That's why it uses [YAML](http://yaml.org/)
 with awesome [PyYAML](https://pypi.python.org/pypi/PyYAML) Python package.
 
