@@ -24,3 +24,8 @@
 * Ask in [chat](https://gitter.im/kibitzr/Lobby)
 * Open [issue](https://github.com/kibitzr/kibitzr/issues/)
 * Fork on [GitHub](https://github.com/kibitzr/kibitzr)
+
+## Miscellaneous
+* [Why Python is perfect for Kibitzr](why-python.html)
+* [ProductHunt page](https://www.producthunt.com/posts/kibitzr)
+* Let's [keep in touch](kibitzrrr@gmail.com)
