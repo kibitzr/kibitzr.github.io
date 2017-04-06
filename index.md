@@ -28,4 +28,4 @@
 ## Miscellaneous
 * [Why Python is a perfect language for Kibitzr](why-python.html)
 * [ProductHunt page](https://www.producthunt.com/posts/kibitzr)
-* Let's [keep in touch](kibitzrrr@gmail.com)
+* Let's [keep in touch](mailto:kibitzrrr@gmail.com)
