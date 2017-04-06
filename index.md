@@ -26,6 +26,6 @@
 * Fork on [GitHub](https://github.com/kibitzr/kibitzr)
 
 ## Miscellaneous
-* [Why Python is perfect for Kibitzr](why-python.html)
+* [Why Python is a perfect language for Kibitzr](why-python.html)
 * [ProductHunt page](https://www.producthunt.com/posts/kibitzr)
 * Let's [keep in touch](kibitzrrr@gmail.com)
