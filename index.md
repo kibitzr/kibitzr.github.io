@@ -1,5 +1,3 @@
-# Kibitzr - Personal Network Assistant
-
 ## Personal
 * Self-hosted - trust no one with your credentials
 * Can go wherever you can go (authenticate on websites, ssh, vpn)
