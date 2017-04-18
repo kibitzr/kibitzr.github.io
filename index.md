@@ -36,7 +36,7 @@
 * Open [issue](https://github.com/kibitzr/kibitzr/issues/)
 * Fork on [GitHub](https://github.com/kibitzr/kibitzr)
 * [Learn](https://kibitzr.readthedocs.io/en/latest/recipes.html) how kibitzr helps people
-* [Try it](https://kibitzr.readthedocs.io/en/latest/aws.html) with AWS free tier.
+* Try it with [AWS Free Tier](https://kibitzr.readthedocs.io/en/latest/aws.html) or [GCP Always Free](https://kibitzr.readthedocs.io/en/latest/gcp.html).
 
 ## Miscellaneous
 * [Why Python is a perfect language for Kibitzr](why-python.html)
