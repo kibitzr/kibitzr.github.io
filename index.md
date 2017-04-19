@@ -1,7 +1,7 @@
 # Get notified when important things happen
 
 Ever waited for long-running TeamCity build to finish?
-Or repeatedly checked for new library release with wanted bug fix?
+Or repeatedly checked for new library bug-fix release?
 Why not receive notification instead?
 Configure kibitzr for polling web page and notify you in messenger or e-mail.
 
