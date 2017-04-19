@@ -43,6 +43,6 @@ kibitzr
 
 9. Enter your phone number, verify code if needed.
 
-10. In message template choose **Step 1 | Text** from drop-down list.
+10. In message template choose **Step 1 > Text** from drop-down list.
 
 You're all set! Get notified on new version of Kibitzr through SMS.
