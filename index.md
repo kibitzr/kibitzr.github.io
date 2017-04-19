@@ -1,3 +1,10 @@
+# Get notified when important things happen
+
+Ever waited for long-running TeamCity build to finish?
+Or repeatedly checked for new library release with wanted bug fix?
+Why not receive notification instead?
+Configure kibitzr for polling web page and notify you in messenger or e-mail.
+
 ## Personal
 * Self-hosted - trust no one with your credentials
 * Can go wherever you can go (authenticate on websites, ssh, vpn)
