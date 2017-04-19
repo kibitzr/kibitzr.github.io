@@ -19,23 +19,23 @@ This tutorial will guide through creation of basic Kibitzr check wired to Zapier
 
 5. Add a check to `kibitzr.yml`:
 
-```yaml
-checks:
-  - name: Kibitzr release
-    url: https://pypi.python.org/pypi/kibitzr/json
-    transform:
-      - jq: .info | .version
-      - changes: verbose
-    notify:
-      - zapier: https://hooks.zapier.com/hooks/catch/1628105/1kan4u/
-```
-(Replace with you zapier URL).
+   ```yaml
+   checks:
+     - name: Kibitzr release
+       url: https://pypi.python.org/pypi/kibitzr/json
+       transform:
+         - jq: .info | .version
+         - changes: verbose
+       notify:
+         - zapier: https://hooks.zapier.com/hooks/catch/1628105/1kan4u/
+   ```
+   (Replace with you zapier URL).
 
 6. Launch kibitzr:
 
-```
-kibitzr
-```
+    ```
+    kibitzr
+    ```
 
 7. Make sure Trigger test passes.
 
