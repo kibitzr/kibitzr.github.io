@@ -9,28 +9,36 @@ If you don't have Kibitzr installed, it's a good time to get one with [AWS Free 
 
 This tutorial will guide through creation of basic Kibitzr check wired to Zapier trigger.
 
-1. Create new zap - click **MAKE A ZAP!** button on [Zapier dashboard](https://zapier.com/app/dashboard).
-2. For a trigger app choose **Webhooks** > **Catch Hook**.
-3. Leave *Child Key* empty
-4. Copy hook URL
-5. Add a check to `kibitzr.yml`:
-   ```
-   checks:
-     - name: Kibitzr release
-       url: https://pypi.python.org/pypi/kibitzr/json
-       transform:
-         - jq: .info | .version
-         - changes: verbose
-       notify:
-         - zapier: https://hooks.zapier.com/hooks/catch/1628105/1kan4u/
-   ```
-   (Replace with you zapier URL)
-6. Launch kibitzr:
-   ```
-   kibitzr
-   ```
-7. Make sure Trigger test passes.
-8. Add Zapier action. Let's pick something fancy, SMS.
-9. In template choose **Step 1 | Text** from drop-down list.
+Create new zap - click **MAKE A ZAP!** button on [Zapier dashboard](https://zapier.com/app/dashboard).
+
+For a trigger app choose **Webhooks** > **Catch Hook**.
+
+Leave *Child Key* empty.
+
+Copy hook URL.
+
+Add a check to `kibitzr.yml`:
+```
+checks:
+  - name: Kibitzr release
+    url: https://pypi.python.org/pypi/kibitzr/json
+    transform:
+      - jq: .info | .version
+      - changes: verbose
+    notify:
+      - zapier: https://hooks.zapier.com/hooks/catch/1628105/1kan4u/
+```
+(Replace with you zapier URL).
+
+Launch kibitzr:
+```
+kibitzr
+```
+
+Make sure Trigger test passes.
+
+Add Zapier action. Let's pick something fancy, SMS.
+
+In template choose **Step 1 | Text** from drop-down list.
 
 You're all set! Get notified on new version of Kibitzr through SMS.
