@@ -5,6 +5,8 @@ and it is even better when combined with integration solutions for public web.
 One of the most popular interations platform is [Zapier](https://zapier.com/).
 It has a free plan, that should cover personal needs.
 
+If you don't have Kibitzr installed, it's a good time to get one with [AWS Free Tier](https://kibitzr.readthedocs.io/en/latest/aws.html) or [GCP Always Free](https://kibitzr.readthedocs.io/en/latest/gcp.html) instance.
+
 This tutorial will guide through creation of basic Kibitzr check wired to Zapier trigger.
 
 1. Create new zap - click **MAKE A ZAP!** button on [Zapier dashboard](https://zapier.com/app/dashboard).
@@ -23,11 +25,12 @@ This tutorial will guide through creation of basic Kibitzr check wired to Zapier
          - zapier: https://hooks.zapier.com/hooks/catch/1628105/1kan4u/
    ```
    (Replace with you zapier URL)
-6. Run kibitzr once to check integration:
+6. Launch kibitzr:
    ```
-   kibitzr --once
+   kibitzr
    ```
-7. Add Zapier action. Let's pick something fancy, SMS.
-8. In template choose **Step 1 | Text** from drop-down list.
+7. Make sure Trigger test passes.
+8. Add Zapier action. Let's pick something fancy, SMS.
+9. In template choose **Step 1 | Text** from drop-down list.
 
 You're all set! Get notified on new version of Kibitzr through SMS.
