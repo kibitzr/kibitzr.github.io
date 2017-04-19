@@ -9,15 +9,16 @@ If you don't have Kibitzr installed, it's a good time to get one with [AWS Free 
 
 This tutorial will guide through creation of basic Kibitzr check wired to Zapier trigger.
 
-Create new zap - click **MAKE A ZAP!** button on [Zapier dashboard](https://zapier.com/app/dashboard).
+1. Create new zap - click **MAKE A ZAP!** button on [Zapier dashboard](https://zapier.com/app/dashboard).
 
-For a trigger app choose **Webhooks** > **Catch Hook**.
+2. For a trigger app choose **Webhooks** > **Catch Hook**.
 
-Leave *Child Key* empty.
+3. Leave *Child Key* empty.
 
-Copy hook URL.
+4. Copy hook URL.
 
-Add a check to `kibitzr.yml`:
+5. Add a check to `kibitzr.yml`:
+
 ```yaml
 checks:
   - name: Kibitzr release
@@ -30,15 +31,18 @@ checks:
 ```
 (Replace with you zapier URL).
 
-Launch kibitzr:
+6. Launch kibitzr:
+
 ```
 kibitzr
 ```
 
-Make sure Trigger test passes.
+7. Make sure Trigger test passes.
 
-Add Zapier action. Let's pick something fancy, SMS.
+8. Add Zapier action. Let's pick something fancy like SMS.
 
-In template choose **Step 1 | Text** from drop-down list.
+9. Enter your phone number, verify code if needed.
+
+10. In message template choose **Step 1 | Text** from drop-down list.
 
 You're all set! Get notified on new version of Kibitzr through SMS.
