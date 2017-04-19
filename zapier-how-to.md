@@ -14,7 +14,7 @@ This tutorial will guide through creation of basic Kibitzr check wired to Zapier
 3. Leave *Child Key* empty
 4. Copy hook URL
 5. Add a check to `kibitzr.yml`:
-   ```yaml
+   ```
    checks:
      - name: Kibitzr release
        url: https://pypi.python.org/pypi/kibitzr/json
