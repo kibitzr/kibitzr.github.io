@@ -18,7 +18,7 @@ Leave *Child Key* empty.
 Copy hook URL.
 
 Add a check to `kibitzr.yml`:
-```
+```yaml
 checks:
   - name: Kibitzr release
     url: https://pypi.python.org/pypi/kibitzr/json
