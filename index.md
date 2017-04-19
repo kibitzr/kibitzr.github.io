@@ -18,6 +18,14 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 * Define recurrent tasks in human-friendly YAML format
 * Sit back and relax, Kibitzr will notify you when something happens
 
+## Enjoy!
+* Read the [documentation](https://kibitzr.readthedocs.org)
+* Ask in [chat](https://gitter.im/kibitzr/Lobby)
+* Open [issue](https://github.com/kibitzr/kibitzr/issues/)
+* Fork on [GitHub](https://github.com/kibitzr/kibitzr)
+* Learn how [kibitzr helps people](https://kibitzr.readthedocs.io/en/latest/recipes.html)
+* Try it with [AWS Free Tier](https://kibitzr.readthedocs.io/en/latest/aws.html) or [GCP Always Free](https://kibitzr.readthedocs.io/en/latest/gcp.html).
+
 ## Easy to start
 * install - `pip install kibitzr` (Python 2 and 3 compatible)
 * configure - whole configuration in one YAML file
@@ -28,6 +36,9 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 * HTML parsing with XPath and CSS selectors
 * Integrations with MailGun and Slack
 
+## Lightweight
+* Can run on tiniest VM offered by cloud providers.
+
 ## Extensible
 * Use bash and python scripts
 * Create plugins
@@ -36,14 +47,6 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 ## Free forever
 * Free Open Source Software
 * MIT license
-
-## Enjoy!
-* Read the [documentation](https://kibitzr.readthedocs.org)
-* Ask in [chat](https://gitter.im/kibitzr/Lobby)
-* Open [issue](https://github.com/kibitzr/kibitzr/issues/)
-* Fork on [GitHub](https://github.com/kibitzr/kibitzr)
-* [Learn](https://kibitzr.readthedocs.io/en/latest/recipes.html) how kibitzr helps people
-* Try it with [AWS Free Tier](https://kibitzr.readthedocs.io/en/latest/aws.html) or [GCP Always Free](https://kibitzr.readthedocs.io/en/latest/gcp.html).
 
 ## Miscellaneous
 * [Why Python is a perfect language for Kibitzr](why-python.html)
