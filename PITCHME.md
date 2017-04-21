@@ -49,7 +49,6 @@
 Provide an URL, Kibitzr will download
 
 ```yaml
-
 checks:
    - url: example.com
 ```
@@ -60,7 +59,6 @@ checks:
 Kibitzr will save it in temporary file and execute with sh
 
 ```yaml
-
 checks:
    - script: uptime
 ```
