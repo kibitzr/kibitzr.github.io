@@ -54,4 +54,4 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 * [ProductHunt page](https://www.producthunt.com/posts/kibitzr)
 * Let's [keep in touch](mailto:kibitzrrr@gmail.com)
 
-![Colorfull Kibitzr in Hebrew](kibitzr.png)
+![Colorfull Kibitzr in Hebrew](kibitzr-hebrew.png)
