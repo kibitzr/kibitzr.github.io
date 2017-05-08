@@ -20,6 +20,7 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 
 ## Enjoy!
 * Check out the [Zapier integration tutorial](zapier-how-to.html)
+* [Bank balance how-to](https://peterdemin.github.io/kibitzr-banks.html)
 * Learn how kibitzr [helps people](https://kibitzr.readthedocs.io/en/latest/recipes.html) with daily duties
 * Read the [documentation](https://kibitzr.readthedocs.org)
 * Try it with [AWS Free Tier](https://kibitzr.readthedocs.io/en/latest/aws.html) or [GCP Always Free](https://kibitzr.readthedocs.io/en/latest/gcp.html).
