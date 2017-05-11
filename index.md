@@ -10,8 +10,8 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 ## Personal
 
 * Self-hosted - trust no one with your credentials
+* Runs everywhere: **Windows**, **Linux** and **Mac OS** both desktop and server.
 * Can go wherever you can go (authenticate on websites, ssh, vpn)
-* Does what you ask to do, and nothing else
 
 ## Network
 
