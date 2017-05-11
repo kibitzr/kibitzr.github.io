@@ -19,6 +19,8 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 * Sit back and relax, Kibitzr will notify you when something happens
 
 ## Enjoy!
+<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
 * Check out the [Zapier integration tutorial](zapier-how-to.html)
 * [Bank balance how-to](https://peterdemin.github.io/kibitzr-banks.html)
 * Learn how kibitzr [helps people](https://kibitzr.readthedocs.io/en/latest/recipes.html) with daily duties
