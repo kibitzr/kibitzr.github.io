@@ -7,7 +7,7 @@ Or repeatedly checked for new library bug-fix release?
 Why not receive notification instead?
 Configure kibitzr for polling web page and notify you in messenger or e-mail.
 
-## Personal
+## Web
 
 * Self-hosted - trust no one with your credentials
 * Runs everywhere: **Windows**, **Linux** and **Mac OS** both desktop and server.
@@ -23,11 +23,15 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 * Define recurrent tasks in human-friendly YAML format
 * Sit back and relax, Kibitzr will notify you when something happens
 
-## Enjoy!
+## Explore
 
 * Check out the [Zapier integration tutorial](zapier-how-to.html)
 * [Bank balance how-to](kibitzr-banks.html)
 * Success story on polling a [Russian passport readiness](russian-passport.html)
+* [Deploy behind firewall](automatic-deployment.html) on git push
+
+## Engage!
+
 * Read the [documentation](https://kibitzr.readthedocs.org)
 * Try it with [AWS Free Tier](https://kibitzr.readthedocs.io/en/latest/aws.html) or [GCP Always Free](https://kibitzr.readthedocs.io/en/latest/gcp.html).
 * Ask in [chat](https://gitter.im/kibitzr/Lobby)
