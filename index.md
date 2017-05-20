@@ -7,13 +7,13 @@ Or repeatedly checked for new library bug-fix release?
 Why not receive notification instead?
 Configure kibitzr for polling web page and notify you in messenger or e-mail.
 
-## Web
+## Personal
 
 * Self-hosted - trust no one with your credentials
 * Runs everywhere: **Windows**, **Linux** and **Mac OS** both desktop and server.
 * Can go wherever you can go (authenticate on websites, ssh, vpn)
 
-## Network
+## Web
 
 * From raw SSH commands to complex browser scenarios - Kibitzr knows protocols
 * Integrated with powerfull services, like Slack and MailGun
