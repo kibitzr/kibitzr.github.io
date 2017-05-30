@@ -26,7 +26,7 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 ## Explore
 
 * Check out the [Zapier integration tutorial](zapier-how-to.html)
-* [Bank balance how-to](kibitzr-banks.html)
+* [Bank balance how-to](https://peterdemin.github.io/kibitzr-banks.html)
 * Success story on polling a [Russian passport readiness](russian-passport.html)
 * [Deploy behind firewall](automatic-deployment.html) on git push
 
