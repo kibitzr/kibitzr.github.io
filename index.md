@@ -29,6 +29,7 @@ Configure kibitzr for polling web page and notify you in messenger or e-mail.
 * [Bank balance how-to](https://peterdemin.github.io/kibitzr-banks.html)
 * Success story on polling a [Russian passport readiness](russian-passport.html)
 * [Deploy behind firewall](automatic-deployment.html) on git push
+* [Get OPM Alerts in Telegram](opm-status-alert.html)
 
 ## Engage!
 
