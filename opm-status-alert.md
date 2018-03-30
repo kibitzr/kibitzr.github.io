@@ -11,7 +11,7 @@ OPM even made mobile apps for notifying about status change.
 
 But who wants to install an app just for receiving notification, right?
 
-So here is a solution that will send a notification to Telegram chat (or Slack or Discord with some tweaking)
+So here is a [Kibitzr](https://kibitzr.github.io) solution that will send a notification to Telegram chat (or Slack or Discord with some tweaking)
 
 Put this check config into your kibitzr.yml:
 
