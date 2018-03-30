@@ -1,20 +1,17 @@
 # OPM Status Alerts in Telegram
 
-For those who work for the US government it's sometimes surprising
-when federal agencies gets closed due to inclined weather.
+For those who work for the US government, it's sometimes surprising when federal agencies get closed due to inclined weather.
 
-There is a special page dedicated to current working status of federal agencies:
+There is a [page dedicated to current working status](https://www.opm.gov/policy-data-oversight/snow-dismissal-procedures/current-status/) of federal agencies:
 
-https://www.opm.gov/policy-data-oversight/snow-dismissal-procedures/current-status/
-
-Usually it states "STATUS: OPEN" but if it snows a little,
+Usually, it states "STATUS: OPEN" but if it snows a little,
 the status can become CLOSED, or something else.
 
 OPM even made mobile apps for notifying about status change.
 
 But who wants to install an app just for receiving notification, right?
 
-So here is a solution that will send notification to Telegram chat (or Slack or Discord with some tweaking)
+So here is a solution that will send a notification to Telegram chat (or Slack or Discord with some tweaking)
 
 Put this check config into your kibitzr.yml:
 
