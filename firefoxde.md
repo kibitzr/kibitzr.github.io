@@ -37,7 +37,7 @@ checks:
         cut -d/ -f 7
     transform:
       - changes: new
-      - jinja: "Download {{ lines | join(' ') }} at https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx&lang=en-US"
+      - jinja: "Download \{\{ lines | join(' ') \}\} at https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx&lang=en-US"
     period: 1 day
     notify:
       - slack
