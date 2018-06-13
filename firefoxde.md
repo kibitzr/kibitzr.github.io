@@ -25,4 +25,22 @@ slack:
     url: https://hooks.slack.com/services/A05237ZVB/321JNKATH/1v2x3v4jtx3dfhlkjhfIKX
 ```
 
+To get notifications for nightly builds use this (slightly more involved) check:
+
+```yaml
+checks:
+  - name: Firefox DE
+    script: >
+        curl -sv 'https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx&lang=en-US'
+        2>&1 |
+        grep Location |
+        cut -d/ -f 7
+    transform:
+      - changes: new
+      - jinja: "Download {{ lines | join(' ') }} at https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx&lang=en-US"
+    period: 1 day
+    notify:
+      - slack
+```
+
 See [Kibitzr documentation](https://kibitzr.readthedocs.io/en/latest/index.html) for details.
