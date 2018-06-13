@@ -27,6 +27,7 @@ slack:
 
 To get notifications for nightly builds use this (slightly more involved) check:
 
+{% raw %}
 ```yaml
 checks:
   - name: Firefox DE
@@ -37,10 +38,11 @@ checks:
         cut -d/ -f 7
     transform:
       - changes: new
-      - jinja: "Download \{\{ lines | join(' ') \}\} at https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx&lang=en-US"
+      - jinja: "Download {{ lines | join(' ') }} at https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx&lang=en-US"
     period: 1 day
     notify:
       - slack
 ```
+{% endraw %}
 
 See [Kibitzr documentation](https://kibitzr.readthedocs.io/en/latest/index.html) for details.
