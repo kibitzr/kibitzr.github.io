@@ -1,6 +1,6 @@
 <iframe src="https://ghbtns.com/github-btn.html?user=kibitzr&repo=kibitzr&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-# Get notified when important things happen
+# Stay on the edge of events. Your way 
 
 Ever waited for long-running TeamCity build to finish?
 Or repeatedly checked for new library bug-fix release?
